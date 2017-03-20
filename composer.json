@@ -1,0 +1,43 @@
+{
+    "name": "stroker/zf3-migration-tools",
+    "description": "Provide tools to ease migration from ZF2 to ZF3",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "zf",
+        "zf2",
+        "zf3",
+        "migration"
+    ],
+    "authors": [
+        {
+            "name": "Bram Gerritsen",
+            "email": "bgerritsen@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "zendframework/zend-code": "^3",
+        "zendframework/zend-servicemanager": "^2",
+        "monolog/monolog": "^1.22",
+        "nikic/php-parser": "^3.0",
+        "symfony/console": "^3.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0.6"
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "Stroker\\Zf3MigrationTools\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "StrokerTest\\Zf3MigrationTools\\": "test/"
+        }
+    },
+    "bin": [
+    ]
+}
